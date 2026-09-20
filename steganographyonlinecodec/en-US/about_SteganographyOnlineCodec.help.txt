@@ -1,0 +1,27 @@
+TOPIC
+    about_SteganographyOnlineCodec
+
+SHORT DESCRIPTION
+    PowerShell Web API client for Steganography Online Codec.
+
+LONG DESCRIPTION
+    SteganographyOnlineCodec talks to
+    https://www.pelock.com/api/steganography-online-codec/v1
+
+    Import the module, then either:
+
+        using module SteganographyOnlineCodec
+        $client = [SteganographyOnlineCodec]::new('YOUR-KEY')
+
+    or:
+
+        Import-Module SteganographyOnlineCodec
+        $client = New-SteganographyOnlineCodec -ApiKey 'YOUR-KEY'
+
+    Methods: Login, Encode, Decode. Encode/Decode send the image as a
+    multipart file.
+
+    Project page: https://www.pelock.com/products/steganography-online-codec
+
+SEE ALSO
+    New-SteganographyOnlineCodec
